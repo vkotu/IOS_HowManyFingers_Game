@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>IOS_HowManyFingers_Game.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>E1579D481C665E81000AF5A3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E1579D5C1C665E81000AF5A3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E1579D671C665E81000AF5A3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

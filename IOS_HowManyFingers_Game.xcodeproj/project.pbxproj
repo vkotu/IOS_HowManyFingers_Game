@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1579D4D1C665E81000AF5A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1579D4C1C665E81000AF5A3 /* AppDelegate.swift */; };
+		E1579D4F1C665E81000AF5A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1579D4E1C665E81000AF5A3 /* ViewController.swift */; };
+		E1579D521C665E81000AF5A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1579D501C665E81000AF5A3 /* Main.storyboard */; };
+		E1579D541C665E81000AF5A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1579D531C665E81000AF5A3 /* Assets.xcassets */; };
+		E1579D571C665E81000AF5A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1579D551C665E81000AF5A3 /* LaunchScreen.storyboard */; };
+		E1579D621C665E81000AF5A3 /* IOS_HowManyFingers_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1579D611C665E81000AF5A3 /* IOS_HowManyFingers_GameTests.swift */; };
+		E1579D6D1C665E81000AF5A3 /* IOS_HowManyFingers_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1579D6C1C665E81000AF5A3 /* IOS_HowManyFingers_GameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1579D5E1C665E81000AF5A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1579D411C665E81000AF5A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1579D481C665E81000AF5A3;
+			remoteInfo = IOS_HowManyFingers_Game;
+		};
+		E1579D691C665E81000AF5A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1579D411C665E81000AF5A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1579D481C665E81000AF5A3;
+			remoteInfo = IOS_HowManyFingers_Game;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1579D491C665E81000AF5A3 /* IOS_HowManyFingers_Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS_HowManyFingers_Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1579D4C1C665E81000AF5A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1579D4E1C665E81000AF5A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1579D511C665E81000AF5A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1579D531C665E81000AF5A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1579D561C665E81000AF5A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1579D581C665E81000AF5A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1579D5D1C665E81000AF5A3 /* IOS_HowManyFingers_GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS_HowManyFingers_GameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1579D611C665E81000AF5A3 /* IOS_HowManyFingers_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_HowManyFingers_GameTests.swift; sourceTree = "<group>"; };
+		E1579D631C665E81000AF5A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1579D681C665E81000AF5A3 /* IOS_HowManyFingers_GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS_HowManyFingers_GameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1579D6C1C665E81000AF5A3 /* IOS_HowManyFingers_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_HowManyFingers_GameUITests.swift; sourceTree = "<group>"; };
+		E1579D6E1C665E81000AF5A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1579D461C665E81000AF5A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1579D5A1C665E81000AF5A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1579D651C665E81000AF5A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1579D401C665E81000AF5A3 = {
+			isa = PBXGroup;
+			children = (
+				E1579D4B1C665E81000AF5A3 /* IOS_HowManyFingers_Game */,
+				E1579D601C665E81000AF5A3 /* IOS_HowManyFingers_GameTests */,
+				E1579D6B1C665E81000AF5A3 /* IOS_HowManyFingers_GameUITests */,
+				E1579D4A1C665E81000AF5A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1579D4A1C665E81000AF5A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1579D491C665E81000AF5A3 /* IOS_HowManyFingers_Game.app */,
+				E1579D5D1C665E81000AF5A3 /* IOS_HowManyFingers_GameTests.xctest */,
+				E1579D681C665E81000AF5A3 /* IOS_HowManyFingers_GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1579D4B1C665E81000AF5A3 /* IOS_HowManyFingers_Game */ = {
+			isa = PBXGroup;
+			children = (
+				E1579D4C1C665E81000AF5A3 /* AppDelegate.swift */,
+				E1579D4E1C665E81000AF5A3 /* ViewController.swift */,
+				E1579D501C665E81000AF5A3 /* Main.storyboard */,
+				E1579D531C665E81000AF5A3 /* Assets.xcassets */,
+				E1579D551C665E81000AF5A3 /* LaunchScreen.storyboard */,
+				E1579D581C665E81000AF5A3 /* Info.plist */,
+			);
+			path = IOS_HowManyFingers_Game;
+			sourceTree = "<group>";
+		};
+		E1579D601C665E81000AF5A3 /* IOS_HowManyFingers_GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1579D611C665E81000AF5A3 /* IOS_HowManyFingers_GameTests.swift */,
+				E1579D631C665E81000AF5A3 /* Info.plist */,
+			);
+			path = IOS_HowManyFingers_GameTests;
+			sourceTree = "<group>";
+		};
+		E1579D6B1C665E81000AF5A3 /* IOS_HowManyFingers_GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1579D6C1C665E81000AF5A3 /* IOS_HowManyFingers_GameUITests.swift */,
+				E1579D6E1C665E81000AF5A3 /* Info.plist */,
+			);
+			path = IOS_HowManyFingers_GameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1579D481C665E81000AF5A3 /* IOS_HowManyFingers_Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1579D711C665E81000AF5A3 /* Build configuration list for PBXNativeTarget "IOS_HowManyFingers_Game" */;
+			buildPhases = (
+				E1579D451C665E81000AF5A3 /* Sources */,
+				E1579D461C665E81000AF5A3 /* Frameworks */,
+				E1579D471C665E81000AF5A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOS_HowManyFingers_Game;
+			productName = IOS_HowManyFingers_Game;
+			productReference = E1579D491C665E81000AF5A3 /* IOS_HowManyFingers_Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1579D5C1C665E81000AF5A3 /* IOS_HowManyFingers_GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1579D741C665E81000AF5A3 /* Build configuration list for PBXNativeTarget "IOS_HowManyFingers_GameTests" */;
+			buildPhases = (
+				E1579D591C665E81000AF5A3 /* Sources */,
+				E1579D5A1C665E81000AF5A3 /* Frameworks */,
+				E1579D5B1C665E81000AF5A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1579D5F1C665E81000AF5A3 /* PBXTargetDependency */,
+			);
+			name = IOS_HowManyFingers_GameTests;
+			productName = IOS_HowManyFingers_GameTests;
+			productReference = E1579D5D1C665E81000AF5A3 /* IOS_HowManyFingers_GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1579D671C665E81000AF5A3 /* IOS_HowManyFingers_GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1579D771C665E81000AF5A3 /* Build configuration list for PBXNativeTarget "IOS_HowManyFingers_GameUITests" */;
+			buildPhases = (
+				E1579D641C665E81000AF5A3 /* Sources */,
+				E1579D651C665E81000AF5A3 /* Frameworks */,
+				E1579D661C665E81000AF5A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1579D6A1C665E81000AF5A3 /* PBXTargetDependency */,
+			);
+			name = IOS_HowManyFingers_GameUITests;
+			productName = IOS_HowManyFingers_GameUITests;
+			productReference = E1579D681C665E81000AF5A3 /* IOS_HowManyFingers_GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1579D411C665E81000AF5A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = VenkatKotu;
+				TargetAttributes = {
+					E1579D481C665E81000AF5A3 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = NV287U7CRA;
+					};
+					E1579D5C1C665E81000AF5A3 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = NV287U7CRA;
+						TestTargetID = E1579D481C665E81000AF5A3;
+					};
+					E1579D671C665E81000AF5A3 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = NV287U7CRA;
+						TestTargetID = E1579D481C665E81000AF5A3;
+					};
+				};
+			};
+			buildConfigurationList = E1579D441C665E81000AF5A3 /* Build configuration list for PBXProject "IOS_HowManyFingers_Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1579D401C665E81000AF5A3;
+			productRefGroup = E1579D4A1C665E81000AF5A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1579D481C665E81000AF5A3 /* IOS_HowManyFingers_Game */,
+				E1579D5C1C665E81000AF5A3 /* IOS_HowManyFingers_GameTests */,
+				E1579D671C665E81000AF5A3 /* IOS_HowManyFingers_GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1579D471C665E81000AF5A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1579D571C665E81000AF5A3 /* LaunchScreen.storyboard in Resources */,
+				E1579D541C665E81000AF5A3 /* Assets.xcassets in Resources */,
+				E1579D521C665E81000AF5A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1579D5B1C665E81000AF5A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1579D661C665E81000AF5A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1579D451C665E81000AF5A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1579D4F1C665E81000AF5A3 /* ViewController.swift in Sources */,
+				E1579D4D1C665E81000AF5A3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1579D591C665E81000AF5A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1579D621C665E81000AF5A3 /* IOS_HowManyFingers_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1579D641C665E81000AF5A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1579D6D1C665E81000AF5A3 /* IOS_HowManyFingers_GameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1579D5F1C665E81000AF5A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1579D481C665E81000AF5A3 /* IOS_HowManyFingers_Game */;
+			targetProxy = E1579D5E1C665E81000AF5A3 /* PBXContainerItemProxy */;
+		};
+		E1579D6A1C665E81000AF5A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1579D481C665E81000AF5A3 /* IOS_HowManyFingers_Game */;
+			targetProxy = E1579D691C665E81000AF5A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1579D501C665E81000AF5A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1579D511C665E81000AF5A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1579D551C665E81000AF5A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1579D561C665E81000AF5A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1579D6F1C665E81000AF5A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1579D701C665E81000AF5A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1579D721C665E81000AF5A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IOS_HowManyFingers_Game/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kotu.IOS-HowManyFingers-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E1579D731C665E81000AF5A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IOS_HowManyFingers_Game/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kotu.IOS-HowManyFingers-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E1579D751C665E81000AF5A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IOS_HowManyFingers_GameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kotu.IOS-HowManyFingers-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOS_HowManyFingers_Game.app/IOS_HowManyFingers_Game";
+			};
+			name = Debug;
+		};
+		E1579D761C665E81000AF5A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IOS_HowManyFingers_GameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kotu.IOS-HowManyFingers-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOS_HowManyFingers_Game.app/IOS_HowManyFingers_Game";
+			};
+			name = Release;
+		};
+		E1579D781C665E81000AF5A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IOS_HowManyFingers_GameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kotu.IOS-HowManyFingers-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IOS_HowManyFingers_Game;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E1579D791C665E81000AF5A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IOS_HowManyFingers_GameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kotu.IOS-HowManyFingers-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IOS_HowManyFingers_Game;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1579D441C665E81000AF5A3 /* Build configuration list for PBXProject "IOS_HowManyFingers_Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1579D6F1C665E81000AF5A3 /* Debug */,
+				E1579D701C665E81000AF5A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1579D711C665E81000AF5A3 /* Build configuration list for PBXNativeTarget "IOS_HowManyFingers_Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1579D721C665E81000AF5A3 /* Debug */,
+				E1579D731C665E81000AF5A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E1579D741C665E81000AF5A3 /* Build configuration list for PBXNativeTarget "IOS_HowManyFingers_GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1579D751C665E81000AF5A3 /* Debug */,
+				E1579D761C665E81000AF5A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E1579D771C665E81000AF5A3 /* Build configuration list for PBXNativeTarget "IOS_HowManyFingers_GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1579D781C665E81000AF5A3 /* Debug */,
+				E1579D791C665E81000AF5A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1579D411C665E81000AF5A3 /* Project object */;
+}
